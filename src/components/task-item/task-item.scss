@@ -1,0 +1,39 @@
+.list-item-wrapper {
+  margin-bottom: 10px;
+  display: flex;
+
+  .list-item {
+    box-shadow: 0 0 0 2px #b181e7;
+    width: 488px;
+    height: 30px;
+    border-radius: 5px;
+
+    .list-item-filled {
+      height: 100%;
+      background-color: #b181e7;
+    }
+
+    .list-item-text {
+      color: white;
+      margin-left: 5px;
+      line-height: 28px;
+
+      &.dark {
+        color: #b181e7;
+      }
+    }
+  }
+
+  .list-item-delete {
+    cursor: pointer;
+    margin-left: 10px;
+    box-shadow: 0 0 0 2px #b181e7;
+    width: 45px;
+    height: 30px;
+    border-radius: 5px;
+    color: #b181e7;
+    line-height: 28px;
+    padding: 0 4px;
+  }
+
+}

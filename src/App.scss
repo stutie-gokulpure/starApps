@@ -1,0 +1,46 @@
+.main-container {
+  padding: 10px 20px;
+  display: flex;
+
+  .tasks-wrapper {
+    .button-dom {
+      display: flex;
+      width: 700px;
+
+      .button {
+        cursor: pointer;
+        border: 2px #b181e7 solid;
+        width: fit-content;
+        padding: 7px 15px;
+        border-radius: 5px;
+        color: #b181e7;
+        font-weight: 500;
+        font-size: 16px;
+        margin-right: 20px;
+
+        &.filled {
+          background-color: #b181e7;
+          color: white;
+        }
+      }
+
+      input[type=number]::-webkit-inner-spin-button {
+        opacity: 1
+      }
+
+      > input {
+        cursor: pointer;
+        width: 30px;
+        margin: 0 15px;
+        border: 2px solid #b181e7;
+        border-radius: 5px;
+        padding: 0 10px;
+      }
+    }
+
+    .task-manager-dom {
+      display: flex;
+    }
+  }
+}
+

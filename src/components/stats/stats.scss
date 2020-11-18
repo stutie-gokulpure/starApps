@@ -1,0 +1,18 @@
+.stat-box {
+  border: #b181e7 2px solid;
+  width: 200px;
+  height: 90px;
+  padding: 10px;
+  border-radius: 5px;
+
+
+  .stat-wrapper {
+    display: flex;
+
+    .stat-field {
+      color: #b181e7;
+      font-weight: 600;
+      width: 80%;
+    }
+  }
+}
